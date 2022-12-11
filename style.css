@@ -6,7 +6,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-
+    /* Baggrund */
 body {
     margin: 0;
     padding: 0;
@@ -14,7 +14,7 @@ body {
     height: 100vh;
     overflow: hidden;
 }
-
+ /* Styrer centrering af objekter på skærmen */
 .center {
     position: absolute;
     top: 50%;
@@ -44,7 +44,7 @@ body {
     margin-right: auto;
     width: 50%;
 }
-
+ /* Styling af tekstfelter */
 form .txt_field {
     position: relative;
     border-bottom: 2px solid #adadad;
@@ -61,6 +61,7 @@ form .txt_field {
     outline: none;
 }
 
+/* Animationer på login form */
 .txt_field label {
     position: absolute;
     top: 50%;
@@ -135,4 +136,23 @@ input[type="submit"]:hover{
 
 .signup_link a:hover{
     text-decoration: underline;
+}
+
+@media screen and (max-width: 728px) {
+    .txt_field{
+        margin: 10px;
+
+    }
+    ¨
+    .signup_link {
+        padding: auto;
+    }
+
+    .center form{
+        width: 100%;
+    }
+    
+    .center{
+        width: 75%;
+    }
 }
