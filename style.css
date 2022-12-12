@@ -6,8 +6,8 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-    /* Baggrund */
-body {
+    /* Baggrund for login page */
+.body1 {
     margin: 0;
     padding: 0;
     background: linear-gradient(0deg, black, #A33E2A);
@@ -137,7 +137,7 @@ input[type="submit"]:hover{
 .signup_link a:hover{
     text-decoration: underline;
 }
-
+/* Responsiv loginform */
 @media screen and (max-width: 728px) {
     .txt_field{
         margin: 10px;
@@ -157,11 +157,129 @@ input[type="submit"]:hover{
 /*Landing page CSS */
 
 .tomato_logo {
-    position: relative;
-    top: 50px;
-    left: 50px;
-    width: 200px;
-    height: 200px;
-    z-index: 100;
+    position: absolute;
+    top: 0;
+    left: 40px;
+
 }
+
+p, a {
+    color:white;
+    z-index: 5;
+    display: inline;
+}
+
+body {
+    background-image: url(Billeder/Biografsæder2-2.jpg);
+}
+ /* Drop Down menuer */
+.drop_down_menu1{
+    position: absolute;
+    top: 60px;
+    left: 700px;
+    display: inline-block;
+    font-size: 20px;
+}
+.content1 {
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    background-color: rgba(0, 0, 0, 0.603);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+  }
+  .drop_down_menu1:hover .content1 {display: block;}
+
+  .content1 a:hover {background-color: rgb(87, 18, 18);}
+  
+
+.drop_down_menu2{
+    position: relative;
+    top: 60px;
+    left: 960px;
+    display: inline-block;
+    font-size: 20px;
+    
+}
+
+.content2 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+  }
+
+  .drop_down_menu2:hover .content2 {display: block;}
+
+  .content2 a:hover {background-color: rgb(87, 18, 18);}
+
+.drop_down_menu3{
+    position: absolute;
+    top: 60px;
+    left: 1210px;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.content3 {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.603);
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-size: 16px;
+  }
+
+  .drop_down_menu3:hover .content3 {display: block;}
+
+  .content3 a:hover {background-color: rgb(87, 18, 18);}
+
+ /* Login tekst */
+.login_label {
+    position: absolute;
+    top: 60px;
+    left: 1750px;
+    font-size: 20px;
+}
+
+.search_field {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+.search_field input {
+    width: 700px;;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.336);
+    color: white;
+    border-radius: 20px;
+}
+
+.Center_text{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
 
