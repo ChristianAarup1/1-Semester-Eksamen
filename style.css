@@ -143,10 +143,6 @@ input[type="submit"]:hover{
         margin: 10px;
 
     }
-    ¨
-    .signup_link {
-        padding: auto;
-    }
 
     .center form{
         width: 100%;
@@ -156,3 +152,16 @@ input[type="submit"]:hover{
         width: 75%;
     }
 }
+
+
+/*Landing page CSS */
+
+.tomato_logo {
+    position: relative;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    height: 200px;
+    z-index: 100;
+}
+
